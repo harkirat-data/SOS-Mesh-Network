@@ -1,0 +1,26 @@
+name: bluetooth_messaging
+description: "A new Flutter project for offline disaster SOS mesh networking."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_blue_plus: ^1.33.4
+  firebase_core: ^2.24.2
+  firebase_database: ^10.4.2
+  geolocator: ^10.1.0
+  shared_preferences: ^2.2.2
+  uuid: ^4.3.3
+  internet_connection_checker: ^1.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

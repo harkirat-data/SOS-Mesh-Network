@@ -1,0 +1,19 @@
+# NOTE: This is a Flutter project.
+# Package dependencies are officially managed and resolved in the `pubspec.yaml` file, not in this txt file.
+# To install them, run: flutter pub get
+
+# Core Flutter Packages Used:
+flutter_blue_plus==1.33.4
+flutter_ble_peripheral==2.5.3
+firebase_core==2.24.2
+firebase_database==10.4.2
+geolocator==10.1.0
+shared_preferences==2.2.2
+uuid==4.3.3
+internet_connection_checker==1.0.0+1
+
+# System Requirements for Building & Testing:
+# 1. Flutter SDK (>=3.2.0)
+# 2. Android Studio / Android SDK
+# 3. Firebase CLI (for Gateway Firebase configuration)
+# 4. Physical Android Devices (Emulators DO NOT support Bluetooth Low Energy mesh testing)
